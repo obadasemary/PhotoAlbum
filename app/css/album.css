@@ -1,0 +1,52 @@
+#header {
+    width: auto;
+    position: relative;
+}
+
+#header h2 {
+    display: inline;
+}
+
+#header select {
+    position: absolute;
+    right: 0;
+}
+
+#albumImage {
+    width: auto;
+    margin-bottom: 10px;
+}
+
+#albumImage img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#thumbWrapper {
+    width: auto;
+    overflow: auto;
+}
+
+#thumbList {
+    white-space: nowrap;
+    margin: 0px;
+}
+
+#thumbList li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+#thumbList li:hover{
+    opacity: 0.5;
+}
+
+#thumbList img {
+    width: 200px;
+    height: 200px;
+}
